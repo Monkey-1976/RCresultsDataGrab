@@ -1,0 +1,14 @@
+﻿.listing-col-Position { min-width: 30px; text-align: right }
+.listing-col-CarNumber { min-width: 30px; text-align: right }
+.listing-col-DriverName { min-width: 200px; text-align: left }
+.listing-col-RaceResult { min-width: 90px; text-align: left }
+.listing-col-LapTime { min-width: 60px; text-align: right }
+.listing-col-TransponderNumber { min-width: 100px; text-align: right }
+.listing-col-MemberType { min-width: 125px; text-align: left }
+.listing-col-Formula { min-width: 70px; text-align: left }
+.listing-col-RoundPoints { min-width: 40px; text-align: right } /* Needed for 3-digit scores (champ points) */
+.listing-col-CountingPoints { min-width: 30px; text-align: right }
+.listing-col-Ability { min-width: 30px; text-align: right }
+.listing-col-Date { min-width: 60px; text-align: left }
+.listing-col-CarMake { min-width: 125px; text-align: left }
+.listing-col-Class { text-align: left }
