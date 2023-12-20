@@ -6,6 +6,25 @@ namespace GrabDRCCData;
 
 public static class WebScrapper
 {
+    public static Dictionary<string, string> GetVenues()
+    {
+        Dictionary<string, string> venues = new Dictionary<string, string>();
+
+        var web = new HtmlWeb();
+        var doc = web.Load("https://www.rc-results.com/viewer/");
+
+        foreach (HtmlNode item in doc.DocumentNode.SelectNodes("//a[@href]"))
+        {
+            if (item.OuterHtml.Contains("venueId"))
+            {
+                string[] urlSplit = item.Attributes["href"].Value.Split("=", 2);
+
+                venues.Add(urlSplit[1], item.InnerHtml);
+            }
+        }
+
+        return venues;
+    }
     public static List<RaceMeeting> GetMeetings(string url)
     {
         List<RaceMeeting> raceMeetings = new List<RaceMeeting>();
@@ -13,8 +32,10 @@ public static class WebScrapper
         var web = new HtmlWeb();
         var doc = web.Load(url);
 
+        #region Testing
         // var doc = new HtmlDocument();
         // doc.Load("html.html");
+        #endregion
 
         HtmlAgilityPack.HtmlNode bodyNode = doc.DocumentNode.SelectSingleNode("//tbody");
 
@@ -22,20 +43,20 @@ public static class WebScrapper
         foreach (var item in bodyNode.ChildNodes)
         {
 
-            if(item.HasChildNodes)
+            if (item.HasChildNodes)
             {
                 string[] splits = item.InnerText.Split("\r\n");
                 string href = string.Empty;
 
                 foreach (var child in item.ChildNodes)
                 {
-                    if(child.HasChildNodes)
+                    if (child.HasChildNodes)
                     {
-                     foreach (var aref in child.ChildNodes)
-                     {
-                        HtmlAttribute att = aref.Attributes["href"];
-                        href = att.Value;
-                     }
+                        foreach (var aref in child.ChildNodes)
+                        {
+                            HtmlAttribute att = aref.Attributes["href"];
+                            href = att.Value;
+                        }
                     }
 
                 }
@@ -60,64 +81,64 @@ public static class WebScrapper
     /// </summary>
     /// <param name="url"></param>
     /// <returns></returns>
-    public static void GetRace(string url)
+    public static List<string> GetRace(string url)
     {
-        // var web = new HtmlWeb();
-        // var doc = web.Load(url);
+        List<string> races = new List<string>();
+        var web = new HtmlWeb();
+        var doc = web.Load(url);
 
-        var doc = new HtmlDocument();
-        doc.Load("htmlmeeting.html");
+        // var doc = new HtmlDocument();
+        // doc.Load("htmlmeeting.html");
 
         foreach (HtmlNode item in doc.DocumentNode.SelectNodes("//a[@href]"))
         {
-
-            if(item.OuterHtml.Contains("raceId"))
+            if (item.OuterHtml.Contains("raceId"))
             {
-
-                _logger.LogInformation($"{item.Attributes["href"].Value}");
+                races.Add(item.Attributes["href"].Value);
             }
-             string[] splits = item.InnerText.Split("\r\n");
-                string href = string.Empty;
-
-                foreach (var child in item.ChildNodes)
-                {
-                    if(child.HasChildNodes)
-                    {
-                     foreach (var aref in child.ChildNodes)
-                     {
-                        HtmlAttribute att = aref.Attributes["href"];
-                        href = att.Value;
-                        _logger.LogInformation($"{href}");
-                     }
-                    }
-
-                }
         }
+        return races;
     }
 
-    public static void GetRaceResults()
+    public static List<RaceResult> GetRaceResults(string url)
     {
+        List<RaceResult> raceResults = new List<RaceResult>();
 
-        var doc = new HtmlDocument();
-        doc.Load("htmlRaceResults.html");
+        var web = new HtmlWeb();
+        var doc = web.Load(url);
 
 
+        // var doc = new HtmlDocument();
+        // doc.Load("htmlRaceResults.html");
 
         HtmlAgilityPack.HtmlNode bodyNode = doc.DocumentNode.SelectSingleNode("//tbody");
-
 
         foreach (HtmlNode row in bodyNode.SelectNodes("tr"))
         {
             string[] results = new string[6];
             int pos = 0;
+
             foreach (HtmlNode col in row.SelectNodes("td"))
             {
-                _logger.LogInformation($"{col.InnerText}");
                 results[pos] = col.InnerText;
                 pos++;
             }
-            
+
+            RaceResult result = new RaceResult
+            {
+                Position = results[0],
+                Car = results[1],
+                Driver = results[2],
+                Result = results[3],
+                Best10 = results[4],
+                Best = results[5]
+            };
+
+            raceResults.Add(result);
+
         }
+
+        return raceResults;
 
     }
 

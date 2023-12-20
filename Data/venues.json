@@ -1,0 +1,438 @@
+[
+    {
+        "Id": 14,
+        "Name": "Adur MCC"
+    },
+    {
+        "Id": 19,
+        "Name": "Aldershot MCC"
+    },
+    {
+        "Id": 1100,
+        "Name": "All Electric MCC"
+    },
+    {
+        "Id": 1112,
+        "Name": "Bakewell RCMCC"
+    },
+    {
+        "Id": 1107,
+        "Name": "Barley Mow RCCC"
+    },
+    {
+        "Id": 1053,
+        "Name": "Basildon Buggy Club"
+    },
+    {
+        "Id": 1060,
+        "Name": "Bedfordshire MCC"
+    },
+    {
+        "Id": 5,
+        "Name": "Bedworth RCCC"
+    },
+    {
+        "Id": 1,
+        "Name": "Beta Test"
+    },
+    {
+        "Id": 1095,
+        "Name": "Bracknell RCCC"
+    },
+    {
+        "Id": 15,
+        "Name": "BRCA 1/10 Electric Circuit"
+    },
+    {
+        "Id": 45,
+        "Name": "BRCA 1/10 IC"
+    },
+    {
+        "Id": 1051,
+        "Name": "BRCA 1/10 Off-Road Trucks"
+    },
+    {
+        "Id": 1096,
+        "Name": "BRCA 1/12 Circuit"
+    },
+    {
+        "Id": 1046,
+        "Name": "BRCA 1/8 Circuit"
+    },
+    {
+        "Id": 41,
+        "Name": "BRCA Bike Section"
+    },
+    {
+        "Id": 1111,
+        "Name": "BRCA Club Sport Large Scale On-Road"
+    },
+    {
+        "Id": 1113,
+        "Name": "BRCA East of England"
+    },
+    {
+        "Id": 1067,
+        "Name": "Bristol MCC"
+    },
+    {
+        "Id": 1077,
+        "Name": "Bristol RC Racers"
+    },
+    {
+        "Id": 29,
+        "Name": "Broxtowe MCC"
+    },
+    {
+        "Id": 1061,
+        "Name": "Burgh RCCC"
+    },
+    {
+        "Id": 1097,
+        "Name": "Burton Buggy Club"
+    },
+    {
+        "Id": 8,
+        "Name": "Bury Metro RCC"
+    },
+    {
+        "Id": 1074,
+        "Name": "Caldicot RC Racers"
+    },
+    {
+        "Id": 1089,
+        "Name": "Capel RCCC"
+    },
+    {
+        "Id": 1087,
+        "Name": "CARS - Chesterfield"
+    },
+    {
+        "Id": 1073,
+        "Name": "Cheshire Cat Car Club"
+    },
+    {
+        "Id": 22,
+        "Name": "Coastal MCC"
+    },
+    {
+        "Id": 6,
+        "Name": "Colchester MCC"
+    },
+    {
+        "Id": 13,
+        "Name": "Cotswold MCC"
+    },
+    {
+        "Id": 39,
+        "Name": "Coventry MCC"
+    },
+    {
+        "Id": 25,
+        "Name": "Crewe RCMCC"
+    },
+    {
+        "Id": 1072,
+        "Name": "Crystal Palace RCCC"
+    },
+    {
+        "Id": 36,
+        "Name": "Derby RCMCC"
+    },
+    {
+        "Id": 1102,
+        "Name": "Doncaster Touring Car Club"
+    },
+    {
+        "Id": 26,
+        "Name": "Dorset MCRC"
+    },
+    {
+        "Id": 21,
+        "Name": "Dudley RCC"
+    },
+    {
+        "Id": 1054,
+        "Name": "Dundee and Angus RCCK"
+    },
+    {
+        "Id": 1047,
+        "Name": "Durham County MCC"
+    },
+    {
+        "Id": 1088,
+        "Name": "EARCC Norwich"
+    },
+    {
+        "Id": 7,
+        "Name": "Eastbourne ECC"
+    },
+    {
+        "Id": 1066,
+        "Name": "Ebberston RC"
+    },
+    {
+        "Id": 1084,
+        "Name": "Eden Park Raceway"
+    },
+    {
+        "Id": 42,
+        "Name": "Essex Carpet Clash"
+    },
+    {
+        "Id": 11,
+        "Name": "Forest of Dean RCCC"
+    },
+    {
+        "Id": 35,
+        "Name": "Frome RCCC"
+    },
+    {
+        "Id": 1057,
+        "Name": "Glasgow RC"
+    },
+    {
+        "Id": 1071,
+        "Name": "GMCC"
+    },
+    {
+        "Id": 46,
+        "Name": "Halifax Track"
+    },
+    {
+        "Id": 1091,
+        "Name": "Hardwick RC Track"
+    },
+    {
+        "Id": 28,
+        "Name": "Haywards Oval Track Racers"
+    },
+    {
+        "Id": 1081,
+        "Name": "Hertford RCC"
+    },
+    {
+        "Id": 1059,
+        "Name": "Hinckley RCCC"
+    },
+    {
+        "Id": 1070,
+        "Name": "Holbeach RCMCC"
+    },
+    {
+        "Id": 1116,
+        "Name": "Huncote Vipers MCC"
+    },
+    {
+        "Id": 1048,
+        "Name": "Ignition Raceway"
+    },
+    {
+        "Id": 31,
+        "Name": "Kettering MCC"
+    },
+    {
+        "Id": 1052,
+        "Name": "King of Clubs"
+    },
+    {
+        "Id": 1099,
+        "Name": "Leamington RCCC"
+    },
+    {
+        "Id": 1055,
+        "Name": "Leicester ECC"
+    },
+    {
+        "Id": 27,
+        "Name": "Lothian RCCC"
+    },
+    {
+        "Id": 1094,
+        "Name": "Louth RCCC"
+    },
+    {
+        "Id": 1101,
+        "Name": "Mansfield RC Racing"
+    },
+    {
+        "Id": 1058,
+        "Name": "MB Models"
+    },
+    {
+        "Id": 44,
+        "Name": "Mendip MMRC"
+    },
+    {
+        "Id": 1064,
+        "Name": "Millais RC Circuit Racers"
+    },
+    {
+        "Id": 12,
+        "Name": "MMR Raceway"
+    },
+    {
+        "Id": 1078,
+        "Name": "Morecambe MCC"
+    },
+    {
+        "Id": 1056,
+        "Name": "Newark RCCC"
+    },
+    {
+        "Id": 1109,
+        "Name": "Newcastle RC Racers"
+    },
+    {
+        "Id": 34,
+        "Name": "North West Nitro"
+    },
+    {
+        "Id": 1068,
+        "Name": "Norwich RCCC"
+    },
+    {
+        "Id": 37,
+        "Name": "Notts &amp; Derby Offroad"
+    },
+    {
+        "Id": 1079,
+        "Name": "oOple"
+    },
+    {
+        "Id": 17,
+        "Name": "Oswestry RCC"
+    },
+    {
+        "Id": 1110,
+        "Name": "Pendle District MCC"
+    },
+    {
+        "Id": 1080,
+        "Name": "Potteries RCMCC"
+    },
+    {
+        "Id": 1050,
+        "Name": "Ribble Valley RCCC"
+    },
+    {
+        "Id": 33,
+        "Name": "Sevenoaks MCC"
+    },
+    {
+        "Id": 1075,
+        "Name": "Sheffield Off Road &amp; Rally RCC"
+    },
+    {
+        "Id": 1108,
+        "Name": "Sheffield RC Racing"
+    },
+    {
+        "Id": 1092,
+        "Name": "SORS - BRCA Scottish Regionals"
+    },
+    {
+        "Id": 32,
+        "Name": "South Cambs RCCC"
+    },
+    {
+        "Id": 1090,
+        "Name": "South Hants MCC"
+    },
+    {
+        "Id": 30,
+        "Name": "Southampton Mardave RCCC"
+    },
+    {
+        "Id": 1103,
+        "Name": "Southend RCCC"
+    },
+    {
+        "Id": 1093,
+        "Name": "Southlakes MCC"
+    },
+    {
+        "Id": 9,
+        "Name": "Southport RCC"
+    },
+    {
+        "Id": 1114,
+        "Name": "St Austell RCCC"
+    },
+    {
+        "Id": 16,
+        "Name": "Stafford RCMCC &amp; Hednesford Indoor Raceway"
+    },
+    {
+        "Id": 1105,
+        "Name": "Stockport MCC"
+    },
+    {
+        "Id": 1063,
+        "Name": "Stoke RCMCC"
+    },
+    {
+        "Id": 1082,
+        "Name": "Sussex RCCC"
+    },
+    {
+        "Id": 40,
+        "Name": "Swindon RCMCC"
+    },
+    {
+        "Id": 38,
+        "Name": "Tamworth RCCC"
+    },
+    {
+        "Id": 1085,
+        "Name": "Telford MCC"
+    },
+    {
+        "Id": 1117,
+        "Name": "Tiverton RCCC"
+    },
+    {
+        "Id": 1098,
+        "Name": "Torbay MRCC"
+    },
+    {
+        "Id": 18,
+        "Name": "Ulverston RCC"
+    },
+    {
+        "Id": 43,
+        "Name": "Waterside Model Club"
+    },
+    {
+        "Id": 1106,
+        "Name": "West Bridgford MCC"
+    },
+    {
+        "Id": 1115,
+        "Name": "West Cornwall RCCC"
+    },
+    {
+        "Id": 24,
+        "Name": "West Kent RCC"
+    },
+    {
+        "Id": 20,
+        "Name": "West London Racing Centre"
+    },
+    {
+        "Id": 1076,
+        "Name": "West Suffolk MCC"
+    },
+    {
+        "Id": 1065,
+        "Name": "Wirral MCC"
+    },
+    {
+        "Id": 1062,
+        "Name": "Worcester MCC"
+    },
+    {
+        "Id": 1049,
+        "Name": "Yarmouth Stadium RCC"
+    }
+]
